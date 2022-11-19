@@ -1,0 +1,16 @@
+class RaindropConverter {
+
+    String convert(int number) {
+        
+    	String result = "";
+    	
+    	if (number % 3 == 0) {
+    		result += "Pling";
+    	} else {
+    		result += String.valueOf(number);
+    	}
+    	
+    	return result;
+    }
+
+}

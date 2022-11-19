@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\User\Exercism\java\word-count"/>
+			<item value="C:\Users\User\Exercism\java\flatten-array"/>
+			<item value="C:\Users\User\Exercism\java\saddle-points"/>
+			<item value="C:\Users\User\Exercism\java\rotational-cipher"/>
+			<item value="C:\Users\User\Exercism\java\triangle"/>
+			<item value="C:\Users\User\Exercism\java\matrix"/>
+			<item value="C:\Users\User\Exercism\java\secret-handshake"/>
+			<item value="C:\Users\User\Exercism\java\difference-of-squares"/>
+			<item value="C:\Users\User\Exercism\java\scrabble-score"/>
+			<item value="C:\Users\User\Exercism\java\gigasecond"/>
+			<item value="C:\Users\User\Exercism\java\hamming"/>
+			<item value="C:\Users\User\Exercism\java\two-fer"/>
+			<item value="C:\Users\User\Exercism\java\wizards-and-warriors"/>
+			<item value="C:\Users\User\Exercism\java\football-match-reports"/>
+			<item value="C:\Users\User\Exercism\java\salary-calculator"/>
+			<item value="C:\Users\User\Exercism\java\remote-control-competition"/>
+			<item value="C:\Users\User\Exercism\java\need-for-speed"/>
+			<item value="C:\Users\User\Exercism\java\elons-toy-car"/>
+			<item value="C:\Users\User\Exercism\java\squeaky-clean"/>
+			<item value="C:\Users\User\Exercism\java\karls-languages"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="375"/>
+		<item key="DIALOG_Y_ORIGIN" value="185"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\User\Exercism\java\raindrops"/>
+		</list>
+	</section>
+</section>

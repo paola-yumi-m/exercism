@@ -1,0 +1,27 @@
+import java.util.Random;
+
+class Robot {
+	private String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	
+	String getName() {
+		String name = this.randomLetter() + 
+				this.randomLetter() + 
+				this.randomNumber() + 
+				this.randomNumber() + 
+				this.randomNumber();
+		return name;
+	}
+	
+	void reset() {
+		
+	}
+	
+	String randomNumber() {
+		return String.valueOf(Math.floor(Math.random() * 9));
+	}
+	
+	String randomLetter() {
+		int randomNumber = (int) Math.floor(Math.random() * 25);
+		return String.valueOf(alphabet.charAt(randomNumber));
+	}
+}

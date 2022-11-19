@@ -1,0 +1,10 @@
+class RaindropConverter {
+
+    String convert(int number) {
+        
+    	String result = String.valueOf(number);
+    	
+    	return result;
+    }
+
+}

@@ -1,0 +1,41 @@
+import java.util.ArrayList;
+import java.util.List;
+
+class Robot {
+	private String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	private String name;
+	private List<String> existingNames = new ArrayList<String>();
+	
+	String getName() {
+		String randomName = this.randomName();
+		if (this.existingNames.contains(randomName)) {
+			randomName = this.randomName();
+		} else {
+			this.name = randomName;
+			this.existingNames.add(randomName);
+		}
+		return randomName;
+	}
+	
+	void reset() {
+		this.name = this.getName();
+	}
+	
+	String randomNumber() {
+		int randomNumber = (int) Math.floor(Math.random() * 9);
+		return String.valueOf(randomNumber);
+	}
+	
+	String randomLetter() {
+		int randomNumber = (int) Math.floor(Math.random() * 25);
+		return String.valueOf(alphabet.charAt(randomNumber));
+	}
+	
+	String randomName() {
+		return this.randomLetter() + 
+				this.randomLetter() + 
+				this.randomNumber() + 
+				this.randomNumber() + 
+				this.randomNumber();
+	}
+}

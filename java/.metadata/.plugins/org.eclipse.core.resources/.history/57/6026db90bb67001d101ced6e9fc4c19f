@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class Flattener {
+	
+	private List<Object> flattened = new ArrayList<Object>(); 
+			
+	public List<Object> flatten(List<Object> list) {
+		for (int i = 0; i < list.size(); i++) {
+			this.flattened.add(list.get(i));
+		}
+		
+		return flattened;
+	}
+}

@@ -1,0 +1,26 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class WordCount {
+	
+	private Map<String, Integer> wordMap = new HashMap<String, Integer>();
+	int counter = 0;
+	String[] words;
+	 
+	public Map<String, Integer> phrase(String phrase) {
+		
+		words = phrase.split("[ ':\n\t,.]");
+		System.out.println(words);
+		for (String word: words) {	
+			String wordLowerCase = word.toLowerCase();
+			if (wordMap.get(wordLowerCase) == null) {				
+				counter = 1;
+			} else {
+				counter = wordMap.get(wordLowerCase) + 1;
+			}
+			this.wordMap.put(wordLowerCase, counter);
+		}
+		return this.wordMap;
+	}
+	
+}
